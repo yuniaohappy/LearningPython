@@ -15,7 +15,7 @@ def get_batch():
     xs = np.arange(BATCH_START,BATCH_START+TIME_STEPS*BATCH_SIZE).reshape((BATCH_SIZE,TIME_STEPS))/(10*np.pi)
     seq = np.sin(xs)
     res = np.cos(xs)
-    return [seq[:,:,np.newaxis],res[:,:np.newaxis],xs]
+    return [seq[:,:,np.newaxis],res[:,:,np.newaxis],xs]
 
 class LSTMRNN(object):
     def __init__(self,n_steps,input_size,output_size,cell_size,batch_size):
@@ -117,7 +117,7 @@ if __name__ == '__main__':
                 model.ys:res,
                 model.cell_init_state:state
             }
-        print(feed_dict)
+        # print(feed_dict)
         _,cost,state,pred = sess.run(
             [model.train_op,model.cost,model.cell_final_state,model.pred],
             feed_dict=feed_dict
