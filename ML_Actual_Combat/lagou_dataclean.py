@@ -31,12 +31,23 @@ class data_clean(object):
             j3 = (j1 + j2)/2
             data['salary'][i] = j3 * 1000
 
+        for i,j in enumerate(data['industryLables']):
+            j = j.replace('[','').replace(']','')
+            data['industryLables'][i] = j
+
+        for i,j in enumerate(data['label']):
+            data['label'][i] = j.replace('[','').replace(']','')
+
+        data['position_detail'] = data['position_detail'].fillna('未知')
+        for i,j in enumerate(data['position_detail']):
+            data['position_detail'][i] = j.replace('\r','').replace('?','')
+
         # print(data['address'][:4])
         # print(data['salary'][:4])
-        print(data['industryLables'][:4])
+        # print(data['industryLables'][:4])
         # print(data['label'][:4])
         # print(data['position_detail'][:4])
         return data
 
-data_clean().clean_operation()
+print(data_clean().clean_operation().head())
 
