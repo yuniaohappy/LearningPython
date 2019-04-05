@@ -5,5 +5,6 @@ import matplotlib.pyplot as plt
 
 from pyhive import hive
 conn = hive.Connection(host='localhost',port=10000,username='hive',database='ods_import').cursor()
-res = conn.fetchall("select * from ods_import limit 10")
+res = conn.fetchall()
+res.count()
 print(res)
