@@ -12,6 +12,6 @@ if __name__ == "__main__":
         z = tf.matmul(x,y) + x
 
     with tf.Session("grpc://localhost:2224") as sess:
-        sess.run(tf.global_variables_initializer)
+        sess.run(tf.global_variables_initializer())
         val = sess.run(z)
         print(val)
