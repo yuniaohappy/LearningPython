@@ -2,134 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9db8e510-e41c-43a6-90ae-71ec941acc13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AmbariClient/ambari_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask/hello_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask/templates/user01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/CNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/LogisticR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/LinerR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/LinerR_restore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/VGG.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/data/t10k-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/data/t10k-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/data/train-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/data/train-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/save_model/LinerR_model.ckpt.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/save_model/LinerR_model.ckpt.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/save_model/LinerR_model.ckpt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/save_model/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/tf_log/events.out.tfevents.1553569674.DESKTOP-LIPENG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/tf_test_model/.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/tf_test_model/.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/tf_test_model/.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/tf_test_model/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/variable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_tyd/vgg_data/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/24-08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/24-10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/24-21.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/24.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/day26/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/day26/cmd_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/day26/cmd_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/day26/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/day27/27-05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/day27/27-06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/day28/28-01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_full/day28/28-03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_example/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_example/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_example/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_example/02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_example/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_example/03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_example/04.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_example/04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_example/05.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_example/05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_example/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_example/06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_example/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/06特征工程.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/06特征工程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/07机器学习建模.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/07机器学习建模.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/14urllib.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/14urllib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/15requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/15requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/16bs4_reptile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/16bs4_reptile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/data/data_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/data/data_analysis.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/data/data_mining.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/data/data_mining.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/data/deep_learning.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/data/deep_learning.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/data/lagou_data5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/data/lagou_data5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/data/lagou_featured.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/data/lagou_featured.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/data/machine_learning.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/data/machine_learning.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/lagou.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/lagou.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/lagou_dataclean.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/lagou_dataclean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Actual_Combat/柱状图.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Actual_Combat/柱状图.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_fast/list_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_fast/list_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/DistributedTensorFlow.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/DistributedTensorFlow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/MNIST_data/logs2/test/events.out.tfevents.1539767014.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/MNIST_data/logs2/test/events.out.tfevents.1539767014.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/MNIST_data/logs2/train/events.out.tfevents.1539767013.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/MNIST_data/logs2/train/events.out.tfevents.1539767013.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/MNIST_data/t10k-images-idx3-ubyte.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/MNIST_data/t10k-labels-idx1-ubyte.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/MNIST_data/train-images-idx3-ubyte.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/MNIST_data/train-labels-idx1-ubyte.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/cluster/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/cluster/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/cluster/cluster_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/cluster/cluster_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/cluster/cluster_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/cluster/cluster_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/mnist_softmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/mnist_softmax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/mnist_with_summaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/mnist_with_summaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/tensorflow_dist_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/tensorflow_dist_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/tf_contrib_learn01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/tf_contrib_learn01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/tf_contrib_learn02.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/tf_contrib_learn02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_02.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_02.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_02.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_02.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_02.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_02.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_03.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TensorFlow/zero_to_all/lab_03.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/16-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/16-04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/17-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/17-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/17-07.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/17-07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/17-08.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/17-08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/17-09.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/17-09.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/18-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/18-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/18-12.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/18-12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/day18/18-08.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/day18/18-08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/day18/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/day18/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_full/day18/config_remove.ini" beforeDir="false" afterPath="$PROJECT_DIR$/python_full/day18/config_remove.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/add_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/add_layer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/full_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/full_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541737853.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541737853.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541761269.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541761269.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541761317.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541761317.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541762597.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541762597.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541762757.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541762757.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541762762.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541762762.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541763535.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1541763535.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1542251546.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1542251546.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1542510444.DESKTOP-LIPENG" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/logs/events.out.tfevents.1542510444.DESKTOP-LIPENG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/lstm_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/lstm_rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/placeholder.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/placeholder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/session_ctl.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/session_ctl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/tensorboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/tensorboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/tf_google01.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/tf_google01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/tf_helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/tf_helloworld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/TensorFlow/variable.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/TensorFlow/variable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/python/file" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/python/file" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/python/lMultiprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/python/lMultiprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/python/lThreading.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/python/lThreading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/python/lTkinter.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/python/lTkinter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/python/pickle_exp.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/python/pickle_exp.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_morvan/python/python_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_morvan/python/python_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_reptile/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_reptile/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_reptile/bing.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_reptile/bing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_reptile/lagou_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_reptile/lagou_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_reptile/pywifi_0615.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_reptile/pywifi_0615.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn&amp;tensorflow/datasets/housing/housing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sklearn&amp;tensorflow/datasets/housing/housing.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn&amp;tensorflow/datasets/housing/housing.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn&amp;tensorflow/housing.py" beforeDir="false" afterPath="$PROJECT_DIR$/sklearn&amp;tensorflow/housing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearn&amp;tensorflow/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/sklearn&amp;tensorflow/mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_full/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_full/sql_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LearningPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearningPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spark/pyspark_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spark/pyspark_test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <ignored path="$PROJECT_DIR$/venv1/" />
@@ -139,12 +18,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LearningPython$sql_mysql.coverage" NAME="sql_mysql Coverage Results" MODIFIED="1554889402064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
+    <SUITE FILE_PATH="coverage/LearningPython$pyspark_test.coverage" NAME="pyspark_test Coverage Results" MODIFIED="1554793206100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spark" />
+    <SUITE FILE_PATH="coverage/LearningPython$31_05.coverage" NAME="31-05 Coverage Results" MODIFIED="1554468207896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
+    <SUITE FILE_PATH="coverage/LearningPython$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1554878245393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
+    <SUITE FILE_PATH="coverage/LearningPython$CNN.coverage" NAME="CNN Coverage Results" MODIFIED="1554451395562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/100_example/03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="243">
               <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
@@ -153,25 +39,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/100_example/04.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="216">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TensorFlow/mnist_softmax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
+            <state relative-caret-position="1458">
               <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TensorFlow/CNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_full/31-05.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spark/pyspark_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_full/decorator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_full/sql_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Spark/pyspark_test.py" />
+        <option value="$PROJECT_DIR$/python_full/decorator.py" />
+        <option value="$PROJECT_DIR$/python_full/sql_pg.py" />
+        <option value="$PROJECT_DIR$/python_full/sql_mysql.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="601" />
@@ -179,12 +127,14 @@
     <option name="width" value="999" />
     <option name="height" value="816" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,18 +145,20 @@
             <path>
               <item name="LearningPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="python_full" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Bash" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,21 +172,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.04">
-    <configuration name="03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sql_mysql">
+    <configuration name="31-05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="SPARK_HOME" value="D:\spark-2.3.3-bin-hadoop2.7" />
+        <env name="PYTHONPATH" value="D:\spark-2.3.3-bin-hadoop2.7\python;D:\spark-2.3.3-bin-hadoop2.7\python\lib\py4j-0.10.7-src.zip" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_full" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_example/03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_full/31-05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,12 +205,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100_example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100_example/04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/CNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,10 +219,88 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_full" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_full/decorator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyspark_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="SPARK_HOME" value="D:\spark-2.3.3-bin-hadoop2.7" />
+        <env name="PYTHONPATH" value="D:\spark-2.3.3-bin-hadoop2.7\python;D:\spark-2.3.3-bin-hadoop2.7\python\lib\py4j-0.10.7-src.zip" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spark" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spark/pyspark_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sql_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_full" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_full/sql_mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.31-05" />
+      <item itemvalue="Python.CNN" />
+      <item itemvalue="Python.pyspark_test" />
+      <item itemvalue="Python.decorator" />
+      <item itemvalue="Python.sql_mysql" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.04" />
-        <item itemvalue="Python.03" />
+        <item itemvalue="Python.sql_mysql" />
+        <item itemvalue="Python.decorator" />
+        <item itemvalue="Python.pyspark_test" />
+        <item itemvalue="Python.31-05" />
+        <item itemvalue="Python.CNN" />
       </list>
     </recent_temporary>
   </component>
@@ -286,27 +318,46 @@
       <workItem from="1554445830758" duration="185000" />
       <workItem from="1554446050816" duration="1227000" />
       <workItem from="1554450648507" duration="273000" />
+      <workItem from="1554451379382" duration="29000" />
+      <workItem from="1554468136409" duration="748000" />
+      <workItem from="1554709386927" duration="569000" />
+      <workItem from="1554770998438" duration="1341000" />
+      <workItem from="1554774473891" duration="181000" />
+      <workItem from="1554774729014" duration="365000" />
+      <workItem from="1554776438022" duration="1225000" />
+      <workItem from="1554791606295" duration="1548000" />
+      <workItem from="1554875435347" duration="3761000" />
+      <workItem from="1554943154311" duration="599000" />
     </task>
+    <task id="LOCAL-00001" summary="2019-04-09">
+      <created>1554774640805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554774640805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2301000" />
+    <option name="totallyTimeSpent" value="12667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1600" height="816" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19444445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22862694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44210526" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6958333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -316,34 +367,81 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="5" side_tool="true" visible="true" weight="0.32966322" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019-04-09" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-04-09" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearningPython$04.coverage" NAME="04 Coverage Results" MODIFIED="1554445978188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_example" />
     <SUITE FILE_PATH="coverage/LearningPython$03.coverage" NAME="03 Coverage Results" MODIFIED="1554445962774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_example" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/100_example/03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="243">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/100_example/04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="216">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TensorFlow/mnist_softmax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="1458">
           <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/CNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_full/31-05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark/pyspark_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_full/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_full/sql_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
