@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>User</title>
-</head>
-<body>
-    <!--{% if name %}-->
-        <!--<h1>Hello {{name}}</h1>-->
-    <!--{% else %}-->
-        <!--<h1>Hello No User!</h1>-->
-    <!--{% endif %}-->
+{% extends "base.html" %}
+{% block title %}Flasky{% endblock %}
 
-    <!--{% for l in li %}-->
-        <!--<h1>Hello {{ l }}</h1>-->
-    <!--{% endfor %}-->
-
-    <h1>姓名：{{ user.name }}</h1>
-    <h1>年龄：{{ user.age }}</h1>
-</body>
-</html>
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Hello,{{name}}</h1>
+    </div>
+</div>
+{% endblock %}
