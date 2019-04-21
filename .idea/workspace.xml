@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9db8e510-e41c-43a6-90ae-71ec941acc13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_git01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_git01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-Learn/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-Learn/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_git01.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <ignored path="$PROJECT_DIR$/venv1/" />
@@ -17,7 +18,7 @@
     <SUITE FILE_PATH="coverage/LearningPython$sql_mysql.coverage" NAME="sql_mysql Coverage Results" MODIFIED="1555070790531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
     <SUITE FILE_PATH="coverage/LearningPython$hive_test.coverage" NAME="hive_test Coverage Results" MODIFIED="1555397072003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
     <SUITE FILE_PATH="coverage/LearningPython$sqlAlchemy.coverage" NAME="sqlAlchemy Coverage Results" MODIFIED="1555083923222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
-    <SUITE FILE_PATH="coverage/LearningPython$01.coverage" NAME="01 Coverage Results" MODIFIED="1555731651080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scikit-Learn" />
+    <SUITE FILE_PATH="coverage/LearningPython$01.coverage" NAME="01 Coverage Results" MODIFIED="1555774055049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scikit-Learn" />
     <SUITE FILE_PATH="coverage/LearningPython$hello_01.coverage" NAME="hello_01 Coverage Results" MODIFIED="1555149471387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask" />
   </component>
   <component name="DatabaseView">
@@ -60,10 +61,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_full/hive_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scikit-Learn/01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="129">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -72,19 +82,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/datasets/samples_generator.py">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/preprocessing/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15039">
-              <caret line="567" selection-start-line="567" selection-end-line="567" />
+            <state relative-caret-position="569">
+              <caret line="1571" lean-forward="true" selection-start-line="1571" selection-end-line="1571" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_git01.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/datasets/samples_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="595">
+              <caret line="567" selection-start-line="567" selection-end-line="567" />
             </state>
           </provider>
         </entry>
@@ -156,7 +166,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test_git" />
       </map>
     </option>
   </component>
@@ -173,15 +183,16 @@
         <option value="$PROJECT_DIR$/Flask/templates/base.html" />
         <option value="$PROJECT_DIR$/Flask/hello_01.py" />
         <option value="$PROJECT_DIR$/python_full/hive_test.py" />
-        <option value="$PROJECT_DIR$/Scikit-Learn/01.py" />
         <option value="$PROJECT_DIR$/test_git.txt" />
         <option value="$PROJECT_DIR$/test_git01.txt" />
+        <option value="$PROJECT_DIR$/Scikit-Learn/01.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="661" />
-    <option name="width" value="946" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1007" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -327,10 +338,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01" />
         <item itemvalue="Python.sqlAlchemy" />
         <item itemvalue="Python.hive_test" />
         <item itemvalue="Python.hello_01" />
-        <item itemvalue="Python.01" />
         <item itemvalue="JavaScript Debug.base.html" />
       </list>
     </recent_temporary>
@@ -394,11 +405,32 @@
       <option name="project" value="LOCAL" />
       <updated>1555745454241</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2019-04-20 test_git">
+      <created>1555746000604</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555746000604</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2019-04-20 test_git">
+      <created>1555746104644</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555746104644</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge branch 'test_git'&#10;&#10;# Conflicts:&#10;#&#9;test_git01.txt">
+      <created>1555746224162</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555746224162</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31390000" />
+    <option name="totallyTimeSpent" value="41574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,29 +443,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18264249" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3011658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47819972" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5555556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32222223" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.7988748" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.68472224" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.22081575" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6835443" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.5316456" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" x="207" y="204" width="1035" height="626" id="SciView" order="3" type="WINDOWED" weight="0.32941177" />
       <window_info anchor="right" id="Database" order="4" weight="0.32966322" />
       <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="5" side_tool="true" weight="0.10168394" />
     </layout>
@@ -441,10 +472,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019-04-14" />
     <MESSAGE value="2019-04-20 test_git" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-04-20 test_git" />
+    <MESSAGE value="Merge branch 'test_git'&#10;&#10;# Conflicts:&#10;#&#9;test_git01.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'test_git'&#10;&#10;# Conflicts:&#10;#&#9;test_git01.txt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearningPython$04.coverage" NAME="04 Coverage Results" MODIFIED="1554445978188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_example" />
@@ -540,25 +582,8 @@
     <entry file="file://$PROJECT_DIR$/test_git.txt" />
     <entry file="file://$PROJECT_DIR$/python_full/hive_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="243">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scikit-Learn/01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/datasets/samples_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15039">
-          <caret line="567" selection-start-line="567" selection-end-line="567" />
         </state>
       </provider>
     </entry>
@@ -605,8 +630,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_git01.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/datasets/samples_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="567" selection-start-line="567" selection-end-line="567" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6649">
+          <caret line="1018" column="13" selection-start-line="1018" selection-start-column="13" selection-end-line="1018" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/preprocessing/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="1571" lean-forward="true" selection-start-line="1571" selection-end-line="1571" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scikit-Learn/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
