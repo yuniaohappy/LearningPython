@@ -7,7 +7,7 @@ x_train = np.arange(150).reshape(50,3)
 y_train = np.arange(50)
 
 model = Sequential()
-model.add(Dense(units=32,activation='relu',input_dim=3))
+model.add(Dense(units=32,activation='relu',input_shape=(3,)))
 model.add(Dense(units=1,activation='relu'))
 
 # model.compile(loss=keras.losses.categorical_crossentropy,
