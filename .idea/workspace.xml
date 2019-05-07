@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9db8e510-e41c-43a6-90ae-71ec941acc13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/keras/image_ocr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keras/tensorboard_embeddings_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_full/args.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/events.out.tfevents.1557131235.DESKTOP-LIPENG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-10.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-10.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-10.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-11.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-11.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-11.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-7.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-7.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-7.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-8.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-8.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-8.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-9.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-9.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/keras_embedding.ckpt-9.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/metadata.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/logs/projector_config.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/tensorboard_embeddings_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/tensorboard_embeddings_mnist.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <ignored path="$PROJECT_DIR$/venv1/" />
@@ -17,16 +36,17 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LearningPython$sql_mysql.coverage" NAME="sql_mysql Coverage Results" MODIFIED="1555070790531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
     <SUITE FILE_PATH="coverage/LearningPython$hive_test.coverage" NAME="hive_test Coverage Results" MODIFIED="1555397072003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
-    <SUITE FILE_PATH="coverage/LearningPython$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1555839867461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy" />
     <SUITE FILE_PATH="coverage/LearningPython$sqlAlchemy.coverage" NAME="sqlAlchemy Coverage Results" MODIFIED="1555083923222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
     <SUITE FILE_PATH="coverage/LearningPython$01.coverage" NAME="01 Coverage Results" MODIFIED="1555774055049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scikit-Learn" />
     <SUITE FILE_PATH="coverage/LearningPython$keras02.coverage" NAME="keras02 Coverage Results" MODIFIED="1556365241922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
+    <SUITE FILE_PATH="coverage/LearningPython$keras01.coverage" NAME="keras01 Coverage Results" MODIFIED="1556353434048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
+    <SUITE FILE_PATH="coverage/LearningPython$tensorboard_embeddings_mnist.coverage" NAME="tensorboard_embeddings_mnist Coverage Results" MODIFIED="1557193093882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
+    <SUITE FILE_PATH="coverage/LearningPython$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1555839867461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy" />
+    <SUITE FILE_PATH="coverage/LearningPython$args.coverage" NAME="args Coverage Results" MODIFIED="1557197543421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
     <SUITE FILE_PATH="coverage/LearningPython$hello_01.coverage" NAME="hello_01 Coverage Results" MODIFIED="1555149471387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask" />
     <SUITE FILE_PATH="coverage/LearningPython$pyhive01.coverage" NAME="pyhive01 Coverage Results" MODIFIED="1556240638553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hadoop" />
     <SUITE FILE_PATH="coverage/LearningPython$image_ocr.coverage" NAME="image_ocr Coverage Results" MODIFIED="1557130457501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
     <SUITE FILE_PATH="coverage/LearningPython$keras03.coverage" NAME="keras03 Coverage Results" MODIFIED="1556897904044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
-    <SUITE FILE_PATH="coverage/LearningPython$keras01.coverage" NAME="keras01 Coverage Results" MODIFIED="1556353434048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
-    <SUITE FILE_PATH="coverage/LearningPython$tensorboard_embeddings_mnist.coverage" NAME="tensorboard_embeddings_mnist Coverage Results" MODIFIED="1557131211260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -68,55 +88,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras/keras01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras/keras03.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras/keras02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras/image_ocr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1325">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keras/tensorboard_embeddings_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="229">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -125,19 +100,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/datasets/mnist.py">
+        <entry file="file://$PROJECT_DIR$/TensorFlow/cluster/cluster_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="432">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/layers/core.py">
+        <entry file="file://$PROJECT_DIR$/TensorFlow/cluster/cluster_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="189">
+              <caret line="7" column="3" selection-start-line="7" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_full/decorator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_full/day31-02.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_full/day28/28-01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_full/day28/28-03.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_full/args.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -145,22 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/engine/base_layer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4995">
+            <state relative-caret-position="604">
               <caret line="201" column="13" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras/model.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/activations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4833">
-              <caret line="187" column="38" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -206,6 +207,7 @@
         <option value="$PROJECT_DIR$/keras/keras03.py" />
         <option value="$PROJECT_DIR$/keras/image_ocr.py" />
         <option value="$PROJECT_DIR$/keras/tensorboard_embeddings_mnist.py" />
+        <option value="$PROJECT_DIR$/python_full/args.py" />
       </list>
     </option>
   </component>
@@ -223,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,19 +236,12 @@
             <path>
               <item name="LearningPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="keras" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="keras" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="python_full" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +271,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tensorboard_embeddings_mnist">
+  <component name="RunManager" selected="Python.args">
+    <configuration name="args" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_full" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_full/args.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="image_ocr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,28 +308,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras/image_ocr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="keras01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearningPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras/keras01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -388,11 +384,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.args" />
         <item itemvalue="Python.tensorboard_embeddings_mnist" />
         <item itemvalue="Python.image_ocr" />
         <item itemvalue="Python.keras03" />
         <item itemvalue="Python.keras02" />
-        <item itemvalue="Python.keras01" />
       </list>
     </recent_temporary>
   </component>
@@ -430,6 +426,8 @@
       <workItem from="1556967617571" duration="39000" />
       <workItem from="1557052287991" duration="599000" />
       <workItem from="1557103571757" duration="6055000" />
+      <workItem from="1557135238092" duration="191000" />
+      <workItem from="1557188962962" duration="4067000" />
     </task>
     <task id="LOCAL-00001" summary="2019-04-14">
       <created>1555245887811</created>
@@ -515,11 +513,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556898404684</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2019-05-03：Keras机器学习提交。">
+      <created>1557135320909</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557135320909</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74769000" />
+    <option name="totallyTimeSpent" value="79027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,8 +537,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2681347" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2376943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -762,9 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_full/decorator.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hadoop/pyhive01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -792,6 +795,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/keras/keras02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras/image_ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/datasets/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -806,16 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/engine/base_layer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4995">
-          <caret line="201" column="13" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras/model.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/activations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4833">
@@ -823,30 +833,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras/keras02.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/callbacks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-6090">
+          <caret line="690" column="39" selection-start-line="690" selection-start-column="39" selection-end-line="690" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras/image_ocr.py">
+    <entry file="file://$PROJECT_DIR$/keras/model.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/engine/base_layer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1325">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="604">
+          <caret line="201" column="13" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keras/tensorboard_embeddings_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="229">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/cluster/cluster_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/cluster/cluster_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="3" selection-start-line="7" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_full/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_full/day31-02.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_full/day28/28-01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_full/day28/28-03.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="1302" column="8" selection-start-line="1302" selection-start-column="8" selection-end-line="1302" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_full/args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

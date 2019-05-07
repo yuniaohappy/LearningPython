@@ -13,9 +13,9 @@ from keras import backend as K
 
 import numpy as np
 
-batch_size = 128
+batch_size = 1280
 num_classes = 10
-epochs = 12
+epochs = 5
 log_dir = './logs'
 
 if not exists(log_dir):
