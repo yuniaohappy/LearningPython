@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9db8e510-e41c-43a6-90ae-71ec941acc13" name="Default Changelist" comment="2019-05-07：Keras机器学习提交。">
-      <change afterPath="$PROJECT_DIR$/AmbariClient/cluster_blueprint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask/flask01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask/template/index01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn/02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-Learn/roc_curve_test.py" afterDir="false" />
+    <list default="true" id="9db8e510-e41c-43a6-90ae-71ec941acc13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/template/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask/templates/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/template/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/template/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/template/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/template/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask/templates/user01.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/template/user01.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <ignored path="$PROJECT_DIR$/venv1/" />
@@ -30,7 +19,7 @@
     <SUITE FILE_PATH="coverage/LearningPython$01.coverage" NAME="01 Coverage Results" MODIFIED="1555774055049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scikit-Learn" />
     <SUITE FILE_PATH="coverage/LearningPython$keras02.coverage" NAME="keras02 Coverage Results" MODIFIED="1556365241922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
     <SUITE FILE_PATH="coverage/LearningPython$cluster_blueprint.coverage" NAME="cluster_blueprint Coverage Results" MODIFIED="1559113197141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AmbariClient" />
-    <SUITE FILE_PATH="coverage/LearningPython$roc_curve_test.coverage" NAME="roc_curve_test Coverage Results" MODIFIED="1559202833577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scikit-Learn" />
+    <SUITE FILE_PATH="coverage/LearningPython$roc_curve_test.coverage" NAME="roc_curve_test Coverage Results" MODIFIED="1561558021635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scikit-Learn" />
     <SUITE FILE_PATH="coverage/LearningPython$keras01.coverage" NAME="keras01 Coverage Results" MODIFIED="1556353434048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
     <SUITE FILE_PATH="coverage/LearningPython$tensorboard_embeddings_mnist.coverage" NAME="tensorboard_embeddings_mnist Coverage Results" MODIFIED="1557193093882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
     <SUITE FILE_PATH="coverage/LearningPython$02.coverage" NAME="02 Coverage Results" MODIFIED="1559116827264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scikit-Learn" />
@@ -39,6 +28,7 @@
     <SUITE FILE_PATH="coverage/LearningPython$args.coverage" NAME="args Coverage Results" MODIFIED="1557197543421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_full" />
     <SUITE FILE_PATH="coverage/LearningPython$hello_01.coverage" NAME="hello_01 Coverage Results" MODIFIED="1555149471387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask" />
     <SUITE FILE_PATH="coverage/LearningPython$pyhive01.coverage" NAME="pyhive01 Coverage Results" MODIFIED="1556240638553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hadoop" />
+    <SUITE FILE_PATH="coverage/LearningPython$tf3_1.coverage" NAME="tf3_1 Coverage Results" MODIFIED="1561562545893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow" />
     <SUITE FILE_PATH="coverage/LearningPython$image_ocr.coverage" NAME="image_ocr Coverage Results" MODIFIED="1557130457501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
     <SUITE FILE_PATH="coverage/LearningPython$keras03.coverage" NAME="keras03 Coverage Results" MODIFIED="1556897904044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras" />
   </component>
@@ -85,15 +75,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scikit-Learn/02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scikit-Learn/roc_curve_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
@@ -111,11 +92,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/metrics/regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1142">
+            <state relative-caret-position="27">
               <caret line="551" column="45" selection-start-line="551" selection-start-column="45" selection-end-line="551" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TensorFlow/tf3_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,6 +219,7 @@
         <option value="$PROJECT_DIR$/AmbariClient/cluster_blueprint.py" />
         <option value="$PROJECT_DIR$/Scikit-Learn/02.py" />
         <option value="$PROJECT_DIR$/Scikit-Learn/roc_curve_test.py" />
+        <option value="$PROJECT_DIR$/TensorFlow/tf3_1.py" />
       </list>
     </option>
   </component>
@@ -243,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,13 +248,12 @@
             <path>
               <item name="LearningPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Scikit-Learn" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.roc_curve_test">
+  <component name="RunManager" selected="Python.tf3_1">
     <configuration name="02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,28 +299,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scikit-Learn/02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="args" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearningPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_full" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_full/args.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,13 +373,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tf3_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/tf3_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tf3_1" />
         <item itemvalue="Python.roc_curve_test" />
         <item itemvalue="Python.02" />
         <item itemvalue="Python.cluster_blueprint" />
         <item itemvalue="Python.flask01" />
-        <item itemvalue="Python.args" />
       </list>
     </recent_temporary>
   </component>
@@ -470,6 +464,9 @@
       <workItem from="1559522325304" duration="1200000" />
       <workItem from="1559611560843" duration="602000" />
       <workItem from="1560526020373" duration="1525000" />
+      <workItem from="1561180744312" duration="852000" />
+      <workItem from="1561386671767" duration="617000" />
+      <workItem from="1561555190608" duration="6478000" />
     </task>
     <task id="LOCAL-00001" summary="2019-04-14">
       <created>1555245887811</created>
@@ -569,11 +566,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557198488878</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2019-06-20：机器学习提交。">
+      <created>1561180966161</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1561180966161</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121147000" />
+    <option name="totallyTimeSpent" value="129094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,20 +590,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42547032" visible="true" weight="0.16904145" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42547032" visible="true" weight="0.17681347" />
       <window_info id="Structure" order="1" sideWeight="0.57452965" side_tool="true" weight="0.18393782" />
       <window_info id="Favorites" order="2" sideWeight="0.57452965" side_tool="true" weight="0.18393782" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3299566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5007236" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.82633865" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.7988748" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.79884225" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.22081575" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.68306804" />
@@ -659,22 +662,14 @@
     <MESSAGE value="2019-04-27：机器学习提交。" />
     <MESSAGE value="2019-05-03：Keras机器学习提交。" />
     <MESSAGE value="2019-05-07：Keras机器学习提交。" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-05-07：Keras机器学习提交。" />
+    <MESSAGE value="2019-06-20：机器学习提交。" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-06-20：机器学习提交。" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearningPython$04.coverage" NAME="04 Coverage Results" MODIFIED="1554445978188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_example" />
     <SUITE FILE_PATH="coverage/LearningPython$03.coverage" NAME="03 Coverage Results" MODIFIED="1554445962774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100_example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras/layers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-989">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hadoop/pyhive01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1082,8 +1077,18 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/metrics/regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1142">
+        <state relative-caret-position="27">
           <caret line="551" column="45" selection-start-line="551" selection-start-column="45" selection-end-line="551" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/tf3_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
