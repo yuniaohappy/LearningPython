@@ -1,0 +1,14 @@
+{
+	"Repositories" : {
+    "base_url" : "http://20.5.192.193/HDP-UTILS",
+    "default_base_url" : "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7",
+    "latest_base_url" : "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7",
+    "mirrors_list" : null,
+    "os_type" : "redhat7",
+    "repo_id" : "HDP-UTILS-1.1.0.21",
+    "repo_name" : "HDP-UTILS",
+    "stack_name" : "HDP",
+    "stack_version" : "2.5",
+    "unique" : false
+  }
+}

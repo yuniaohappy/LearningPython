@@ -1,0 +1,18 @@
+{
+  "blueprint": "ambari_lp",
+  "default_password": "admin",
+  "host_groups": [
+    {"name": "master_1", "hosts": [
+        { "fqdn": "vm-5.novalocal" }
+      ]
+    },
+    { "name": "master_2","hosts": [
+        { "fqdn": "vm-3.novalocal" }
+      ]
+    },
+    { "name": "master_3","hosts": [
+        { "fqdn": "vm-1.novalocal" }
+      ]
+    }
+  ]
+}

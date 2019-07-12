@@ -1,0 +1,19 @@
+from pyspark.sql import SparkSession
+from pyspark import SparkConf,SparkContext
+from pyspark.sql import HiveContext
+阿斯顿发斯蒂芬
+阿斯顿发送到　　　　
+阿斯蒂芬　　
+阿斯顿发生  是打发斯蒂芬
+spark = SparkSession.builder.appName('spark_test').getOrCreate()
+df = spark.read.json('D:\spark-2.3.3-bin-hadoop2.7\examples\src\main\\resources\people.json')
+# print(df.show())
+# print(df.describe())
+# print(df.count())
+df.printSchema 
+阿萨德法师打发斯蒂芬阿斯顿发斯蒂芬
+阿斯顿发斯蒂芬
+asdfasdf
+
+
+
