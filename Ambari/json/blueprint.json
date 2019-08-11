@@ -29,7 +29,7 @@
       ]
     },
     {
-      "name": "master_3",
+      "name": "server",
       "cardinality" : "1",
       "components": [
         { "name": "JOURNALNODE" },

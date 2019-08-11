@@ -1,10 +1,23 @@
 import json
 import argparse
 import requests
-import pprint
+
 
 class AmbariSetup(object):
-    def __init__(self, host, port, username, password, clustername, blueprintname,master1,master2,server,slave,hdp,hdputils):
+    def __init__(self,
+                 host,
+                 port,
+                 username,
+                 password,
+                 clustername,
+                 blueprintname,
+                 master1,
+                 master2,
+                 server,
+                 slave,
+                 hdp,
+                 hdputils):
+
         self.host = host
         self.port = port
         self.username = username
@@ -19,17 +32,54 @@ class AmbariSetup(object):
         self.hdp = hdp
         self.hdputils = hdputils
 
-
-    def blue_print(self):
+    # 创建Ambari蓝图
+    def create_blueprint(self):
         with open('./json/blueprint.json', 'r') as blue_file:
             blue_print_json = json.loads(blue_file.read(), encoding='utf-8')
             blue_print_json['Blueprints']['blueprint_name'] = self.blueprintname
+            blue_print_json['host_groups'].append(self._add_slave())
             return json.dumps(blue_print_json)
 
+    def _add_slave(self):
+        #     {"name": "master_3",
+        #       "cardinality" : "1",
+        #       "components": [
+        #         { "name": "JOURNALNODE" },
+        #         { "name": "METRICS_MONITOR" },
+        #         { "name": "NAMENODE" },
+        #         { "name": "ZKFC" },
+        #         { "name": "ZOOKEEPER_SERVER" },
+        #         { "name": "HDFS_CLIENT" },
+        #         { "name": "MAPREDUCE2_CLIENT" },
+        #         { "name": "METRICS_COLLECTOR" },
+        #         { "name": "METRICS_MONITOR" },
+        #         { "name": "TEZ_CLIENT" },
+        #         { "name": "YARN_CLIENT" },
+        #         { "name": "ZOOKEEPER_CLIENT" }
+        #       ]
+        #     }
+        slaves = []
+        for n in range(len(self.slave)):
+            host_groups_slaves = {"name": "master_3",
+                                  "cardinality": "1",
+                                  "components": [{"name": "JOURNALNODE"},
+                                                 {"name": "METRICS_MONITOR"}, {"name": "NAMENODE"},
+                                                 {"name": "ZKFC"},
+                                                 {"name": "ZOOKEEPER_SERVER"},
+                                                 {"name": "HDFS_CLIENT"},
+                                                 {"name": "MAPREDUCE2_CLIENT"},
+                                                 {"name": "METRICS_COLLECTOR"},
+                                                 {"name": "METRICS_MONITOR"},
+                                                 {"name": "TEZ_CLIENT"},
+                                                 {"name": "YARN_CLIENT"}, {"name": "ZOOKEEPER_CLIENT"}]}
+            host_groups_slaves['name'] = 'slave_' + str(n + 1)
+            slaves.append(host_groups_slaves)
+        return slaves
+
     # 配置集群的存储库
-    def hdp_hdputils(self,url):
+    def hdp_hdputils(self, url):
         if url == 'hdp':
-            hdp = {"Repositories" : {"base_url" : self.hdp,"verify_base_url" : True}}
+            hdp = {"Repositories": {"base_url": self.hdp, "verify_base_url": True}}
         elif url == 'hdputils':
             hdp = {"Repositories": {"base_url": self.hdputils, "verify_base_url": True}}
         else:
@@ -42,14 +92,14 @@ class AmbariSetup(object):
         hostmap['blueprint'] = self.blueprintname
         hostmap['default_password'] = self.password
         hostmap['host_groups'] = self._add_hosts()
-        return hostmap
+        return json.dumps(hostmap)
 
     def _add_hosts(self):
         # {"name": "master_1", "hosts": [{ "fqdn": "vm-5.novalocal" }]}
         host_groups = [
             {"name": "master_1",
              "hosts": [{"fqdn": self.master1}]},
-            {"name": "master_1",
+            {"name": "master_2",
              "hosts": [{"fqdn": self.master2}]},
             {"name": "server",
              "hosts": [{"fqdn": self.server}]}
@@ -57,10 +107,11 @@ class AmbariSetup(object):
 
         for n in range(len(self.slave)):
             host_map = {"name": "slave_" + str(n + 1),
-                        "hosts": [{ "fqdn": self.slave[n] }]}
+                        "hosts": [{"fqdn": self.slave[n]}]}
             host_groups.append(host_map)
         return host_groups
 
+    # 获取创建集群过程中的URL
     def get_url(self, name):
         if name == 'blueprint':
             bule_print_url = 'http://{host}:{port}/api/v1/blueprints/{blueprintname}?validate_topology=false' \
@@ -84,22 +135,21 @@ class AmbariSetup(object):
 
 
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(description='Ambari 配置参数')
+    ap = argparse.ArgumentParser(description='Ambari 安装配置参数')
     ap.add_argument('--host', help='Ambari IP 地址', default='20.5.194.62')
     ap.add_argument('--port', help='Ambari 端口号', default='8080')
     ap.add_argument('--username', help='Ambari 用户名', default='admin')
     ap.add_argument('--password', help='Ambari 密码', default='admin')
     ap.add_argument('--clustername', help='Ambari 名称', default='ambari_lp')
     ap.add_argument('--blueprintname', help='Bluprint 名称', default='ambari_lp')
-    ap.add_argument('--master1',help='Master1 主机名',default='master01')
-    ap.add_argument('--master2',help='Master2 主机名',default='master02')
-    ap.add_argument('--server',help='Server 主机名',default='server')
-    ap.add_argument('--slave',help='Slave 节点列表',default='slave01,slave02,slave03')
-    ap.add_argument('--hdp',help='HDP 存储库配置',default='http://20.5.192.193/HDP')
+    ap.add_argument('--master1', help='Master1 主机名', default='master01')
+    ap.add_argument('--master2', help='Master2 主机名', default='master02')
+    ap.add_argument('--server', help='Server 主机名', default='server')
+    ap.add_argument('--slave', help='Slave 节点列表', default='slave01,slave02,slave03')
+    ap.add_argument('--hdp', help='HDP 存储库配置', default='http://20.5.192.193/HDP')
     ap.add_argument('--hdputils', help='HDP-UTILS 存储库配置', default='http://20.5.192.193/HDP-UTILS')
 
     args = ap.parse_args()
-
     ambari = AmbariSetup(args.host,
                          args.port,
                          args.username,
@@ -112,8 +162,10 @@ if __name__ == '__main__':
                          args.slave,
                          args.hdp,
                          args.hdputils)
-    # pprint.pprint(ambari.create_cluster())
-    pprint.pprint(ambari.hdp_hdputils('hdputils'))
+
+    print(ambari.create_blueprint())
+    print(ambari.hdp_hdputils('hdputils'))
+    print(ambari.create_cluster())
 
     # 获取已经创建好的集群blueprint
     # url = 'http://{host}:{port}/api/v1/clusters/{clusterName}?format=blueprint'\
