@@ -27,9 +27,11 @@ def test(mnist):
                 saver.restore(sess,ckpt.model_checkpoint_path)
                 global_step = ckpt.model_checkpoint_path.split('/')[-1].split('-')[-1]
                 print('model_checkpoint_path:',ckpt.model_checkpoint_path)
-                accuracy_score = sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels})
+
                 for i in range(int(global_step),mnist_backward.STEPS):
-                    if i % 1000 == 0:
+
+                    accuracy_score = sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels})
+                    if i % 100 == 0:
                         print("After %s training step(s),test accuracy = %g" % (i, accuracy_score))
                         saver.save(sess, os.path.join(mnist_backward.MODEL_SAVE_PATH, mnist_backward.MODEL_NAME),global_step=i)
             else:
