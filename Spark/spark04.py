@@ -21,12 +21,13 @@ sc = SparkContext(conf=conf)
 spark = SparkSession(sc)
 spark.read.text
 # 使用反射推断模式
-lines = sc.textFile('D:\spark-2.3.3-bin-hadoop2.7\examples\src\main\\resources\people.txt')
+# lines = sc.textFile('D:\spark-2.3.3-bin-hadoop2.7\examples\src\main\\resources\people.txt')
+lines = sc.textFile('hdfs://172.20.10.3:8020/tmp/people.txt')
 # people_row = lines.map(lambda line:line.split(',')).map(lambda row:Row(name=row[0],age=int(row[1])))
 # people_schma = spark.createDataFrame(people_row)
 # people_df = people_schma.createOrReplaceTempView('people')
 # spark.sql('select * from people').show()
-
+print(lines)
 # 以编程方式指定模式
 people = lines.map(lambda line:line.split(',')).map(lambda x:(x[0].strip(),int(x[1].strip())))
 schmastring = 'name age'

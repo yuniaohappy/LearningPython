@@ -1,4 +1,6 @@
 from pyspark.sql import SparkSession,HiveContext
+import pyspark
+
 # from os.path import abspath
 
 # spark = SparkSession\
@@ -21,11 +23,17 @@ spark = SparkSession.builder.appName('spark_jdbc').master('local[2]').getOrCreat
 #
 # jdbc.show()
 
-iris = spark.read.orc('D:\BaiduNetdiskDownload\iris.orc')
+iris = spark.read.orc('E:\BaiduNetdiskDownload\iris.orc')
 iris.show()
-iris.write\
-    .jdbc('jdbc:postgresql://localhost:5432/spark?currentSchema=spark',
-          'iris',
-          mode='overwrite',
-          properties={'user':'postgres','password':'postgresql','driver':'org.postgresql.Driver'})
+# iris.write\
+#     .jdbc('jdbc:postgresql://localhost:5432/spark?currentSchema=spark',
+#           'iris',
+#           mode='overwrite',
+#           properties={'user':'postgres','password':'postgresql','driver':'org.postgresql.Driver'})
 
+iris.write.jdbc('jdbc:mysql://localhost:3306/spark',
+                'iris',
+                'overwrite',
+                properties={'user':'root',
+                            'password':'root',
+                            'driver':'com.mysql.jdbc.Driver'})
