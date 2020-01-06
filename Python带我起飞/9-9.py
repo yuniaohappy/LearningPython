@@ -1,3 +1,4 @@
+# with 句法的自定义实现原理
 class WithClass:
     def __enter__(self):
         print('__enter__')
